@@ -1,6 +1,6 @@
 # React/TypeScript/Express/MongoDB/Sass
 
-** A MERN stack starter project **
+**A MERN stack starter project**
 
 This project is a starting point for a TypeScript based React app that also has a local API server using express.
 
