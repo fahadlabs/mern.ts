@@ -4,12 +4,13 @@ import * as express from 'express';
 // mongoose
 //   .connect('[MONGO_URL]')
 //   .then(() => console.log('Connected to DB.'))
-//   .catch(e => console.log(e));
+//   .catch(console.log);
 
 import apiRouter from './routes/api';
 
 const app = express();
 
+app.disable('x-powered-by');
 app.use(express.static('public'));
 app.use(apiRouter);
 
